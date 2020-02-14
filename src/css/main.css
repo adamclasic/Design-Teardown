@@ -1,1 +1,21 @@
 /* General rules */
+
+.main-header {
+    height: 175px;
+    width: 100%;
+    display: flex;
+}
+
+.header-item {
+    flex:2;
+    height: 100%;
+    background-color: grey;
+}
+
+.header-item:nth-child(2n) {
+    background-color: darkgray;
+}
+
+.header-item:first-child {
+    flex:3;
+}
