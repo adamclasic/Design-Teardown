@@ -1,5 +1,9 @@
 /* General rules */
 
+/* General rules End */
+
+/* Header */
+
 .main-header {
     height: 175px;
     width: 100%;
@@ -7,7 +11,7 @@
 }
 
 .header-item {
-    flex:2;
+    flex: 2;
     height: 100%;
     background-color: grey;
 }
@@ -17,5 +21,26 @@
 }
 
 .header-item:first-child {
-    flex:3;
+    flex: 3;
+}
+
+/* Header end */
+
+/* Grid-section */
+
+.grid-wraper {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2, minmax(377px, 1fr));
+    /* repeat(auto-fill, minmax(300px, 1fr)); */
+}
+
+.grid-item {
+    background-color: rgb(182, 182, 182);
+    height: 100vh;
+    minmax(377px, 50%)
+}
+
+.grid-item:nth-child(2n+1) {
+    background-color: rgb(116, 116, 116);
 }
