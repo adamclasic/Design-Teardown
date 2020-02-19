@@ -40,6 +40,7 @@ main {
 
 .grid-wraper {
     display: grid;
+  position: relative;
 
     /* grid-template-columns: repeat(2, minmax(377px, 50%));
     /* repeat(auto-fill, minmax(300px, 1fr)); */
@@ -48,6 +49,21 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 500px);
     margin-bottom: -50px;
+}
+
+.main-title {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(129, 48, 114, 0);
+  bottom: 850px;
+}
+
+.title-cont {
+  margin: auto;
+  width: 300px;
+  height: 70px;
+  background-color: #eee;
 }
 
 .grid-item {
