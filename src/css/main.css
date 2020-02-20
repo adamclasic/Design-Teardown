@@ -191,7 +191,7 @@ article {
     height: 200px;
 }
 
-.community-links-footer > h3 {
+.community-links-footer>h3 {
     display: inline-block;
     margin: auto;
 }
@@ -219,4 +219,27 @@ article {
 .big-card {
     grid-column: span 2;
     background-color: rgb(119, 119, 119);
+}
+
+footer {
+
+    height: 631px;
+    width: 100%;
+    background-color: rgb(98, 98, 98);
+    border: 1px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer>h3>ul {
+    background-color: rgb(98, 98, 98);
+}
+
+footer li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(98, 98, 98);
 }
